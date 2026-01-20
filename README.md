@@ -1,3 +1,5 @@
+https://nikkhil-ss.github.io/divine-ui/
+
 # Divine Devotion — Static Site (HTML/CSS/JS)
 
 This project has been simplified to pure HTML, CSS, and JavaScript. No React, Vite, Tailwind, or Node.js tooling is required anymore.
