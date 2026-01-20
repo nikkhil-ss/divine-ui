@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Donation • Shri Krishna Pranami Sanstha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="icon" href="./src/assets/logo.png" type="image/png" sizes="32x32" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-inner">
+                <a class="brand" href="./index.html">
+                    <div class="brand-mark"><img src="./src/assets/logo.png" alt="Shri Krishna Pranami Sanstha logo" />
+                    </div>
+                    <div class="brand-text">
+                        <div class="brand-title">Shri Krishna</div>
+                        <div class="brand-subtitle">Pranami Sanstha</div>
+                    </div>
+                </a>
+                <div class="nav-links" data-nav>
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./about.html">About Us</a>
+                    <a class="nav-link" href="./history.html">History</a>
+                    <a class="nav-link" href="./services.html">Services</a>
+                    <a class="nav-link" href="./donation.html">Donation</a>
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                </div>
+                <button id="translate-toggle" class="icon-btn" aria-label="Translate to Hindi"
+                    title="Translate">हिं</button>
+                <a class="btn btn-primary donate-desktop" href="./donation.html">Donate Now</a>
+                <button id="menu-toggle" class="menu-btn" aria-label="Toggle menu" title="Menu"><svg width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg></button>
+            </div>
+            <div id="mobile-menu" class="mobile-menu" data-nav>
+                <div class="container">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="./history.html">History</a>
+                    <a href="./services.html">Services</a>
+                    <a href="./donation.html">Donation</a>
+                    <a href="./contact.html">Contact Us</a>
+                    <div style="display:flex; gap:8px; align-items:center; margin-top:8px">
+                        <button id="translate-toggle-mobile" class="icon-btn" aria-label="Translate to Hindi"
+                            title="Translate">हिं</button>
+                    </div>
+                    <a class="btn btn-primary" href="./donation.html" style="margin-top:8px">Donate Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="section"
+            style="padding: 96px 0 72px; background: var(--secondary); color: var(--secondary-foreground)">
+            <div class="container text-center">
+                <h1 class="section-title" style="margin-bottom:8px">Make a Donation</h1>
+                <p class="section-subtitle">Your generous contribution helps us spread love, peace, and devotion</p>
+            </div>
+        </section>
+
+        <section class="section alt">
+            <div class="container">
+                <h2 class="section-title">Seva Categories</h2>
+                <p class="section-subtitle">Choose a seva to offer your contribution for a specific cause</p>
+                <div class="grid grid-3">
+                    <div class="card-spiritual" style="cursor:pointer">
+                        <div style="display:flex; gap:16px">
+                            <div class="card-icon">🍲</div>
+                            <div>
+                                <h3 style="margin:0 0 6px">Anna Daan</h3>
+                                <div class="section-subtitle" style="text-align:left">Feed the hungry with sacred
+                                    prasadam</div>
+                                <div class="mt-6"><span class="chip">₹501</span> <span class="chip">₹1,001</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-spiritual" style="cursor:pointer">
+                        <div style="display:flex; gap:16px">
+                            <div class="card-icon">🪔</div>
+                            <div>
+                                <h3 style="margin:0 0 6px">Deep Daan</h3>
+                                <div class="section-subtitle" style="text-align:left">Light a lamp in the temple</div>
+                                <div class="mt-6"><span class="chip">₹51</span> <span class="chip">₹101</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-spiritual" style="cursor:pointer">
+                        <div style="display:flex; gap:16px">
+                            <div class="card-icon">🌸</div>
+                            <div>
+                                <h3 style="margin:0 0 6px">Pushpa Seva</h3>
+                                <div class="section-subtitle" style="text-align:left">Offer flowers to the divine couple
+                                </div>
+                                <div class="mt-6"><span class="chip">₹251</span> <span class="chip">₹501</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-spiritual" style="cursor:pointer">
+                        <div style="display:flex; gap:16px">
+                            <div class="card-icon">🛕</div>
+                            <div>
+                                <h3 style="margin:0 0 6px">Temple Maintenance</h3>
+                                <div class="section-subtitle" style="text-align:left">Support the upkeep of the temple
+                                </div>
+                                <div class="mt-6"><span class="chip">₹1,001</span> <span class="chip">₹5,001</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-spiritual" style="cursor:pointer">
+                        <div style="display:flex; gap:16px">
+                            <div class="card-icon">📚</div>
+                            <div>
+                                <h3 style="margin:0 0 6px">Vedic Education</h3>
+                                <div class="section-subtitle" style="text-align:left">Sponsor spiritual education
+                                    programs</div>
+                                <div class="mt-6"><span class="chip">₹1,001</span> <span class="chip">₹2,501</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-spiritual" style="cursor:pointer">
+                        <div style="display:flex; gap:16px">
+                            <div class="card-icon">🎉</div>
+                            <div>
+                                <h3 style="margin:0 0 6px">Festival Sponsorship</h3>
+                                <div class="section-subtitle" style="text-align:left">Sponsor grand festival
+                                    celebrations</div>
+                                <div class="mt-6"><span class="chip">₹5,001</span> <span class="chip">₹11,001</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section muted">
+            <div class="container">
+                <div class="card-spiritual" style="max-width:760px; margin:0 auto">
+                    <h3 class="section-title" style="margin-bottom:20px">Donation</h3>
+                    <div class="mb-10">
+                        <label>Select Amount</label>
+                        <div class="amounts">
+                            <button class="amount-btn" data-amount="501">₹501</button>
+                            <button class="amount-btn" data-amount="1001">₹1,001</button>
+                            <button class="amount-btn" data-amount="2501">₹2,501</button>
+                            <button class="amount-btn" data-amount="5001">₹5,001</button>
+                        </div>
+                        <div class="mt-6"><input id="custom-amount" type="number" placeholder="Enter custom amount" />
+                        </div>
+                    </div>
+                    <div class="grid grid-2 mb-10">
+                        <div><label>Full Name *</label><input type="text" placeholder="Enter your full name" /></div>
+                        <div><label>Phone Number *</label><input type="tel" placeholder="+91 98765 43210" /></div>
+                        <div><label>Email Address *</label><input type="email" placeholder="your@email.com" /></div>
+                        <div><label>PAN Number (for 80G)</label><input type="text" placeholder="ABCDE1234F" /></div>
+                        <div style="grid-column: 1/-1"><label>Special Message (Optional)</label><textarea rows="3"
+                                placeholder="Any special message or prayer request..."></textarea></div>
+                    </div>
+                    <button id="donate-button" class="btn btn-primary" style="width:100%">Donate ₹0</button>
+                    <p class="section-subtitle" style="text-align:center; margin-top:10px">All donations are eligible
+                        for 80G tax exemption</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section alt">
+            <div class="container">
+                <h2 class="section-title">Other Ways to Contribute</h2>
+                <p class="section-subtitle">Beyond monetary donations, there are many ways to serve</p>
+                <div class="grid grid-4">
+                    <div class="card-spiritual text-center">
+                        <div class="card-icon">🙌</div>
+                        <h3 style="margin:10px 0 6px">Volunteer</h3>
+                        <div class="section-subtitle">Offer your time and skills</div>
+                    </div>
+                    <div class="card-spiritual text-center">
+                        <div class="card-icon">🥛</div>
+                        <h3 style="margin:10px 0 6px">Cow Seva</h3>
+                        <div class="section-subtitle">Sponsor cow protection</div>
+                    </div>
+                    <div class="card-spiritual text-center">
+                        <div class="card-icon">🌳</div>
+                        <h3 style="margin:10px 0 6px">Go Green</h3>
+                        <div class="section-subtitle">Plant trees in our garden</div>
+                    </div>
+                    <div class="card-spiritual text-center">
+                        <div class="card-icon">📦</div>
+                        <h3 style="margin:10px 0 6px">In-Kind</h3>
+                        <div class="section-subtitle">Donate goods & materials</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background: var(--secondary); color: var(--secondary-foreground)">
+            <div class="container">
+                <h3 class="section-title" style="margin-bottom:16px">Bank Transfer Details</h3>
+                <div class="card"
+                    style="padding:18px; max-width:600px; margin:0 auto; background: rgba(255,255,255,0.04)">
+                    <div style="display:grid; gap:10px; font-size:14px">
+                        <div style="display:flex; justify-content:space-between"><span>Account
+                                Name:</span><span><strong>Shri Krishna Pranami Sanstha Trust</strong></span></div>
+                        <div style="display:flex; justify-content:space-between"><span>Bank
+                                Name:</span><span><strong>State Bank of India</strong></span></div>
+                        <div style="display:flex; justify-content:space-between"><span>Account
+                                Number:</span><span><strong>1234567890123</strong></span></div>
+                        <div style="display:flex; justify-content:space-between"><span>IFSC
+                                Code:</span><span><strong>SBIN0001234</strong></span></div>
+                        <div style="display:flex; justify-content:space-between">
+                            <span>Branch:</span><span><strong>Vrindavan Main Branch</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <div class="brand" style="margin-bottom:16px">
+                            <div class="brand-mark"><img src="./src/assets/logo.png"
+                                    alt="Shri Krishna Pranami Sanstha logo" /></div>
+                            <div>
+                                <div class="brand-title">Shri Krishna</div>
+                                <div class="brand-subtitle">Pranami Sanstha</div>
+                            </div>
+                        </div>
+                        <p style="color:var(--muted-text); font-size:14px; margin-bottom:12px">A sacred sanctuary
+                            dedicated to the divine love of Lord Krishna and Radha Rani. Join us in devotion, service,
+                            and spiritual enlightenment.</p>
+                    </div>
+                    <div>
+                        <h4 class="brand-title" style="margin-bottom:16px">Quick Links</h4>
+                        <div style="display:grid; gap:10px; font-size:14px; color:var(--muted-text)">
+                            <a href="./index.html">Home</a>
+                            <a href="./about.html">About Us</a>
+                            <a href="./history.html">Our History</a>
+                            <a href="./services.html">Our Services</a>
+                            <a href="./donation.html">Donate</a>
+                            <a href="./contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                    <!-- <div>
+                        <h4 class="brand-title" style="margin-bottom:16px">Temple Timings</h4>
+                        <div style="display:grid; gap:8px; font-size:14px; color:var(--muted-text)">
+                            <div style="display:flex; justify-content:space-between"><span>Morning
+                                    Aarti</span><span>5:00 AM</span></div>
+                            <div style="display:flex; justify-content:space-between"><span>Shringar
+                                    Darshan</span><span>7:30 AM</span></div>
+                            <div style="display:flex; justify-content:space-between"><span>Raj Bhog
+                                    Aarti</span><span>12:00 PM</span></div>
+                            <div style="display:flex; justify-content:space-between"><span>Sandhya
+                                    Aarti</span><span>6:30 PM</span></div>
+                            <div style="display:flex; justify-content:space-between"><span>Shayan Aarti</span><span>8:30
+                                    PM</span></div>
+                        </div>
+                    </div> -->
+                    <div>
+                        <h4 class="brand-title" style="margin-bottom:16px">Contact Us</h4>
+                        <div style="display:grid; gap:10px; font-size:14px; color:var(--muted-text)">
+                            <div>123 Temple Road, Vrindavan<br />Mathura, Uttar Pradesh 281121</div>
+                            <div>+91 98765 43210</div>
+                            <div>info@radhakrishnatemple.org</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container"
+                style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px;">
+                <div>© 2025 Shri Krishna Pranami Sanstha. All rights reserved.</div>
+                <div style="display:flex; gap:16px"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
